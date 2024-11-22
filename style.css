@@ -14,33 +14,37 @@ body {
     color: #2A4E2A;
 }
 header{
-    background-color: #f2f2e5a2;
+    background-color: #f2f2e55f;
     border: 2px;
     border-radius: 6px;
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: large;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(10px);
 }
-header > ul{
+nav > ul{
     display: flex;
     gap: 200px;
     margin: 0px;
     padding: 0px;
     width: fit-content;
 }
-header > ul > li {
+nav > ul > li {
     text-decoration: none;
     list-style: none;
     padding-inline: 4px;
 }
-header > ul > li > a {
+nav > ul > li > a {
     text-decoration: none;
     color: #2A4E2A;
 }
-
-
+nav > ul > li > a:hover {
+    font-weight: 700;
+}
 
 .div-inicio{
     margin: auto;
@@ -56,4 +60,51 @@ header > ul > li > a {
 }
 .div-inicio-descripcion{
     width: 45%;
+}
+
+.propiedades{
+    width: 60%; 
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+}
+.propiedades-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prop1{
+    width: 150px;
+    height: 80px;
+    background-color: #324e2a5b;
+    border: 2px;
+    border-radius: 8px;
+}
+.prop2{
+    width: 150px;
+    height: 80px;
+    background-color: #324e2a2f;
+    border: 2px;
+    border-radius: 8px;
+}
+
+h2{
+    font-size: xxx-large;
+    margin-bottom: 0px;
+}
+
+.descripciones{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.descripcion-titulo{
+    font-size: medium;
+    font-weight: 400;
+}
+
+#productos-estrella{
+    margin-top: 100px;
 }
