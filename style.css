@@ -107,4 +107,21 @@ h2{
 
 #productos-estrella{
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tarjetas{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #324e2a5b;
+    border: 2px;
+    border-radius: 8px;
+
+    padding: 10px;
 }
