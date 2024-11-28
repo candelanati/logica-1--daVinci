@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pegacham</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">  
 </head>
 <body>
     <div class="contenedor">
@@ -50,15 +52,59 @@
                 <h2>Productos estrella</h2>
                 <p class="descripciones">Los productos más elegidos!</p>
                 <div class="tarjetas">
-                    <div class="card">
-                        <h3>Producto 1</h3>
+                    <div>
+                        <div class="card">
+                            <img class="img-tarjeta" src="./img/Paper_Tube_Mockup_OK_3.jpg" alt="">
+                            <h3>Producto 1</h3>
+                            <p>descripcion</p>
+                        </div>
+                        <div class="card">
+                            <img class="img-tarjeta" src="./img/Kraft-Tin-Can-Container-Free-psd-Mockup.jpg" alt="">
+                            <h3>Producto 2</h3>
+                            <p>descripcion</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h3>Producto 2  </h3>
+                    <div>
+                        <div class="card">
+                            <img class="img-tarjeta" src="./img/Paper_Tube_Mockup_OK_3.jpg" alt="">
+                            <h3>Producto 1</h3>
+                            <!-- <p>descripcion</p> -->
+                        </div>
+                        <div class="card">
+                            <img class="img-tarjeta" src="./img/Kraft-Tin-Can-Container-Free-psd-Mockup.jpg" alt="">
+                            <h3>Producto 2</h3>
+                            <p>descripcion</p>
+                        </div>
                     </div>
                 </div>
-            </sectpion>
-        </main>
+            </section>
+            <div class="swiffy-slider">
+                <ul class="slider-container">
+                    <li>
+                        <div class="card">
+                            <img class="img-tarjeta" src="./img/Paper_Tube_Mockup_OK_3.jpg" alt="">
+                            <h3>Producto 1</h3>
+                            <!-- <p>descripcion</p> -->
+                        </div>
+                    </li>
+                    <li>                        
+                        <div class="card">
+                            <img class="img-tarjeta" src="./img/Kraft-Tin-Can-Container-Free-psd-Mockup.jpg" alt="">
+                            <h3>Producto 2</h3>
+                            <p>descripcion</p>
+                        </div>
+                    </li>
+                </ul>
+            
+                <button type="button" class="slider-nav"></button>
+                <button type="button" class="slider-nav slider-nav-next"></button>
+            
+                <div class="slider-indicators">
+                    <button class="active"></button>
+                    <button></button>
+                </div>
+            </div>
+        <!-- </main> -->
     </div>
 </body>
 </html>
