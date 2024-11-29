@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 .contenedor{
-    background-color: #bcbcb3;
-    background-image: url(./img/fondo.png);
+    background-color: #bfbdb1;
+    background-image: url(./img/fondo-02.png);
     height: 100%;
     background-position: 0%;
     background-size: 100%;
     min-height: 100vh;
 }
+.contenedor-contacto{
+    background-color: #bfbdb1;
+    background-image: url(./img/fondo-contacto.png);
+    height: 100%;
+    background-position: 0%;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
 
 * {
     box-sizing: border-box;
@@ -18,7 +27,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 
-    background-color: #bcbcb3;
+    background-color: #bfbdb1;
     width: 1300px;
     margin: auto;
     color: #2A4E2A;
@@ -65,7 +74,7 @@ footer{
     padding: 40px;
     height: 200px;
     width: 100%;
-    background-image: linear-gradient(#bcbcb3, #324e2a80);
+    background-image: linear-gradient(#bfbdb100, #324e2a80);
 }
 .contactanos-footer{
     font-size: x-large;
