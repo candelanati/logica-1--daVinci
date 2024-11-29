@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 .contenedor{
     background-color: #bcbcb3;
+    background-image: url(./img/fondo.png);
+    height: 100%;
+    background-position: 0%;
+    background-size: 100%;
+    min-height: 100vh;
 }
 
 * {
@@ -53,6 +58,7 @@ nav > ul > li > a:hover {
     font-weight: 700;
 }
 footer{
+    margin-top: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,6 +109,9 @@ footer{
     background-color: #324e2a5b;
     border: 2px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .prop2{
     width: 150px;
@@ -110,6 +119,9 @@ footer{
     background-color: #324e2a2f;
     border: 2px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
