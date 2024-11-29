@@ -26,6 +26,7 @@ address > a:hover{
     font-weight: 600;
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -170,7 +171,7 @@ section{
 }
 .card{
     width: 300px;
-    height: 400px;
+    height: 435px;
     background-color: #324e2a5b;
     border: 2px;
     border-radius: 8px;
@@ -208,24 +209,39 @@ section{
 
 .boton-comprar-tarjeta{
     background-color: #2A4E2A;
-    color: #bcbcb3;
-    font-weight: 500;
-    font-size: large;
+    margin-top: 0px;
     width: 280px;
     height: 30px;
     border: 1px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-comprar-tarjeta >a{
+    text-decoration: none;
+    color: #bcbcb3;
+    font-weight: 500;
+    font-size: large;
 }
 .boton-ver-mas{
     margin-top: 60px;
     background-color: #2A4E2A;
-    color: #bcbcb3;
     font-weight: 500;
     font-size: x-large;
     width: 200px;
     height: 40px;
     border: 1px;
     border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-ver-mas > a{
+    text-decoration: none;
+    color: #bfbdb1;
+    transition: all .2s;
 }
 .centrado{
     display: flex;
@@ -350,4 +366,12 @@ details[open] summary {
 .input-checkbox{
     width: 20px;
     height: 20px;
+}
+
+.input-submit{
+    background-color: #2A4E2A;
+    color: #bfbdb1;
+    font-size: larger;
+    width: 20%;
+    margin: auto;
 }
