@@ -262,3 +262,37 @@ details[open] summary {
  flex-direction: column;
  align-items: center;
 }
+
+.titulo-mapa{
+    margin-inline:200px;
+    margin-bottom: 40px;
+}
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+}
+.form-contacto-estilos{
+    background-color:#324e2a5b;
+    width: 750px;
+    padding: 20px;
+    border: 1px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+
+.inputs-forms-contacto{
+    border: 1px;
+    margin-block: 2px;
+    padding-block: 3px;
+    border-radius: 8px;
+    background-color: #bcbcb3;
+}
+
+.consulta-input{
+    min-height: 80px;
+    max-height: 200px;
+    min-width: 99.5%;
+    max-width: 99.5%;
+}
