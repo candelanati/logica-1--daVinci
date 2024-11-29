@@ -188,13 +188,12 @@ section{
 }
 
 .boton-comprar-tarjeta{
-    margin-top: 14px;
     background-color: #2A4E2A;
     color: #bcbcb3;
     font-weight: 500;
     font-size: large;
-    width: 300px;
-    height: 34px;
+    width: 280px;
+    height: 30px;
     border: 1px;
     border-radius: 8px;
 }
