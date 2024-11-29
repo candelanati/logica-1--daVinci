@@ -23,8 +23,9 @@ header{
     align-items: center;
     font-size: large;
     position: sticky;
-    top: 0px;
+    top: 12px;
     backdrop-filter: blur(10px);
+    z-index: 999;
 }
 nav > ul{
     display: flex;
@@ -106,7 +107,7 @@ h2{
     font-weight: 400;
 }
 
-#productos-estrella{
+section{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -164,4 +165,100 @@ h2{
     height: 34px;
     border: 1px;
     border-radius: 8px;
+}
+.boton-ver-mas{
+    margin-top: 60px;
+    background-color: #2A4E2A;
+    color: #bcbcb3;
+    font-weight: 500;
+    font-size: x-large;
+    width: 200px;
+    height: 40px;
+    border: 1px;
+    border-radius: 14px;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-nosotros-historia{
+    margin-top: 50px;
+    margin-inline: 250px;
+}
+.sobre-nosotros-historia > p{
+    font-size: large;
+}
+
+.espaciado-medio{
+    margin-top: 100px;
+}
+
+.details-medio{
+    border: 1px solid #2A4E2A;
+    
+    background-color: #324e2a33;
+    width: 700px;
+}
+
+details > p{
+    padding: 4px;
+}
+.summary-medio{
+    font-size: large;
+    font-weight: 500;
+    background-color: #324e2a5b;
+    padding: 4px;
+}
+details[open] summary {
+    border-bottom: 1px solid #2A4E2A;
+    margin-bottom: 0.5em;
+}
+
+.arriba-details{
+
+    
+    background-color: #324e2a33;
+    width: 700px;
+    border: 1px solid #2A4E2A;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.abajo-details{
+    background-color: #324e2a33;
+    width: 700px;
+    border: 1px solid #2A4E2A;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.summary-arriba{
+    font-size: large;
+    font-weight: 500;
+    background-color: #324e2a5b;
+    padding: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.summary-abajo{
+    font-size: large;
+    font-weight: 500;
+    background-color: #324e2a5b;
+    padding: 4px;
+    
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.abajo-details[open] .summary-abajo {
+    border-bottom: 1px solid #2A4E2A;
+    margin-bottom: 0.5em;
+    border-radius: 0px;
+}
+
+.details-div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
