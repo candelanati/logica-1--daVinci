@@ -97,7 +97,7 @@ h2{
 }
 
 .descripciones{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 100px;
 }
 
@@ -112,22 +112,56 @@ h2{
 }
 
 .tarjetas{
-    width: 50%;
+    width: 70%;
     margin: auto;
-    display: flex;
-    gap: 30px;
+
 }
 .card{
-    width: 350px;
+    width: 300px;
     height: 400px;
     background-color: #324e2a5b;
     border: 2px;
     border-radius: 8px;
     padding: 10px;
+    
 }
 
 .img-tarjeta{
     width: 290px;
+    border: 1px solid #2a4e2a8a;
+    border-radius: 8px;
+}
+.div-img-tarjeta{
+    display: flex;
+    justify-content: center;
+}
+
+.div-2-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.swiffy-slider-correcciones{
+    width: 100% !important;
+    height:470px ;
+}
+
+.correccion-color-botones-posicion{
+    background-color: #2A4E2A !important;
+}
+
+.boton-comprar-tarjeta{
+    margin-top: 14px;
+    background-color: #2A4E2A;
+    color: #bcbcb3;
+    font-weight: 500;
+    font-size: large;
+    width: 300px;
+    height: 34px;
     border: 1px;
     border-radius: 8px;
 }
