@@ -171,7 +171,7 @@ section{
 }
 .card{
     width: 300px;
-    height: 435px;
+    height: 400px;
     background-color: #324e2a5b;
     border: 2px;
     border-radius: 8px;
@@ -218,7 +218,7 @@ section{
     justify-content: center;
     align-items: center;
 }
-.boton-comprar-tarjeta >a{
+.a-comprar {
     text-decoration: none;
     color: #bcbcb3;
     font-weight: 500;
@@ -238,7 +238,7 @@ section{
     align-items: center;
 }
 
-.boton-ver-mas > a{
+.a-ver-mas{
     text-decoration: none;
     color: #bfbdb1;
     transition: all .2s;
